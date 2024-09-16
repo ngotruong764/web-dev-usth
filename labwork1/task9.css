@@ -1,0 +1,21 @@
+table{
+    
+}
+
+th{
+    background-color: #1f497d;
+    border-style: solid;
+    border-color: white;
+}
+
+.odd{
+    background-color: #cfd8e8;
+    border-style: solid;
+    border-color: white;
+}
+
+.even{
+    background-color: #e9edf4;
+    border-style: solid;
+    border-color: white;
+}
