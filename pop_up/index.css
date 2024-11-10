@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: white; */
+}
+
+.popup-container{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    /* background: green; */
+    opacity: 0,
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>{% block title%}My contact flash app{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/custom.css')}}">
+</head>
+<body>
+    <nav class="navbar nav-bar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">FlashApp</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contract">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

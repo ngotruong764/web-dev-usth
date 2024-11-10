@@ -1,0 +1,20 @@
+/* styles.css */
+table,th,td {
+    border: 1px solid #000;
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/*th {*/
+/*    border: 1px solid #000;*/
+/*    padding: 8px;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*}*/
+
+/*td {*/
+/*    border: 1px solid #000;*/
+/*    padding: 8px;*/
+/*    text-align: center;*/
+/*}*/
