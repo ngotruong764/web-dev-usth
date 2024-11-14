@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Student By Group</title>
+    <link rel="stylesheet" href="/static/display_by_group.css">
+</head>
+<body>
+
+    <h1>Excellent Students</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Mark</th>
+        </tr>
+        {% for std_excellent in excellent %}
+            <tr>
+                <td>{{ std_excellent.id }}</td>
+                <td>{{ std_excellent.name }}</td>
+                <td>{{ std_excellent.std_class }}</td>
+                <td>{{ std_excellent.mark }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h1>Good Students</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Mark</th>
+        </tr>
+        {% for std_good in good %}
+            <tr>
+                <td>{{ std_good.id }}</td>
+                <td>{{ std_good.name }}</td>
+                <td>{{ std_good.std_class }}</td>
+                <td>{{ std_good.mark }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h1>Average Students</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Mark</th>
+        </tr>
+        {% for std_average in average %}
+            <tr>
+                <td>{{ std_average.id }}</td>
+                <td>{{ std_average.name }}</td>
+                <td>{{ std_average.std_class }}</td>
+                <td>{{ std_average.mark }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
