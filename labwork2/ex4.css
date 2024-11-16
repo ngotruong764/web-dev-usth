@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container .input {
+    text-align: left;
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

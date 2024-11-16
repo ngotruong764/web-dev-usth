@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    margin: 50px auto;
+    width: 40%;
+}
+
+#opertor .input{
+    text-align: left;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}

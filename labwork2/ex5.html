@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex5.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Multiply and divide 2 numbers</h1>
+        <form id="opertor">
+            <div class="input">
+                <label>1st number</label>
+                <input type="number" id="first-num">
+            </div>
+            <div class="input">
+                <label>2nd number</label>
+                <input type="number" id="second-num">
+            </div>
+            <br>
+            <div class="buttons">
+                <button type="button" onclick="calculate('multiply')">Multiply</button>
+                <button type="button" onclick="calculate('divide')">Divide</button>
+            </div>
+        </form>
+        <p id="res">Result is: </p>
+    </div>
+    <script src = './ex5.js'></script>
+</body>
+</html>
