@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Event Example</title>
+    <script>
+        // Function to handle the blur event
+        function handleBlur(event) {
+            console.log('Field1 has lost focus');
+        }
+
+        // Attach the blur event to the input element when the DOM is fully loaded
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const field1 = document.getElementById('field1');
+            field1.addEventListener('blur', handleBlur);
+        });
+    </script>
+</head>
+<body>
+    <form>
+        <input id="field1" type="text" value="Field 1">
+        <input id="field2" type="text" value="Field 2">
+    </form>
+</body>
+</html>
