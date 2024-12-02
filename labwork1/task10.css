@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#div1, #div4 {
+    background: blue;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+#content{
+    display: flex;
+    flex: 1;
+}
+
+#div2{
+    background: gray;
+    width: 25%;
+}
+
+#div3{
+    background: green;
+    width: 75%;
+}
+

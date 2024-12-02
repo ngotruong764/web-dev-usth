@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+
+table, .header{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.header{
+    background: gray;
+}
+
+tr:nth-child(odd){
+    background: rgb(221, 217, 217);
+}
+
+.data{
+    border-left: 1px solid black;
+}
